@@ -1,0 +1,93 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+html {
+	font-size: 20px;
+	font-family: 'Roboto Mono', sans-serif;
+}
+body {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	background-color: #10583c;
+}
+h1 {
+	font-size: 4rem;
+	text-align: center;
+	font-weight: 300;
+	white-space: 150%;
+}
+p {
+	line-height: 150%;
+}
+.addNew {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+.addNew input,
+.addNew textarea {
+	margin-top: 1rem;
+	width: 100%;
+	padding: .2rem;
+	line-height: 150%;
+	outline: none;
+	border: 2px solid white;
+}
+.addNew .btn {
+	padding: .2rem;
+	margin-top: 1rem;
+	transition: background-color .1s ease-in-out;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+}
+.addNew .btn:hover {
+	background-color: rgba(255, 255, 255, 0.603);
+}
+.addNew i {
+	font-size: 1.5rem;
+	padding: 0 .1rem;
+	border: 2px solid black;
+	border-radius: 50%;
+}
+.addNew p {
+	font-size: 1.5rem;
+	margin-left: .5rem;
+}
+.notes {
+	margin-top: 1rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	flex-basis: 80vw;
+}
+.note {
+	padding: 1rem;
+	margin-bottom: .5rem;
+	border: 3px solid white;
+	border-radius: .5rem;
+	background-color: rgba(255, 255, 255, 0.2);
+}
+.note p {
+	max-width: 60vw;
+	overflow-wrap: break-word;
+}
+.note .subject {
+	margin-bottom: .5rem;
+}
+.note i {
+	margin-top: .5rem;
+	margin-right: 1rem;
+	font-size: 1.2rem;
+	cursor: pointer;
+}
+.fas .fa-star {
+	color: yellow;
+}
+.note:hover {
+	background-color: rgba(255, 255, 255, 0.3);
+}
